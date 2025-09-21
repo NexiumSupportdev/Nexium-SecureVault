@@ -170,8 +170,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For support, feature requests, or security reports:
-- Create an issue on GitHub
-- Email: security@nexium-vault.com
+- Email: Coming Soon
 - Support https://discord.gg/zcNRGBMS83
 
 ## Changelog
