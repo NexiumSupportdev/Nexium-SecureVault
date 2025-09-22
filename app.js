@@ -604,6 +604,6 @@ function exportData() {
 function importData() {
     app.importData();
 }
-
-// Initialize app
+// This script is made by Nexium Team. john pork/ skull
+// do not change anything that can make the script broken
 const app = new NexiumApp();
