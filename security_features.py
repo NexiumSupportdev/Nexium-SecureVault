@@ -1,4 +1,4 @@
-import hashlib
+ import hashlib
 import time
 import json
 from datetime import datetime, timedelta
@@ -6,9 +6,9 @@ from datetime import datetime, timedelta
 class SecurityManager:
     def __init__(self):
         self.failed_attempts = {}
-        self.session_timeout = 1800  # 30 minutes
-        self.max_attempts = 3
-        self.lockout_duration = 300  # 5 minutes
+        self.session_timeout = 1700  # 30 minutes
+        self.max_attempts = 2
+        self.lockout_duration = 400  # 5 minutes
     
     def hash_master_password(self, password: str, salt: bytes) -> str:
         """Create secure hash of master password for verification"""
